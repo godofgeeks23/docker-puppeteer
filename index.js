@@ -9,11 +9,8 @@ import puppeteer from 'puppeteer';
         ]
     });
     const page = await browser.newPage();
-
     await page.goto('https://developer.chrome.com/');
-
     await page.setViewport({ width: 1080, height: 1024 });
-
     await page.type('.devsite-search-field', 'automate beyond recorder');
 
     const searchResultSelector = '.devsite-result-item-link';
