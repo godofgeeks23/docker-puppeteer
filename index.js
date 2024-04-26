@@ -22,10 +22,11 @@ import puppeteer from 'puppeteer';
     const textSelector = await page.waitForSelector(
         'text/Customize and automate'
     );
-    
+
     const fullTitle = await textSelector?.evaluate(el => el.textContent);
 
     console.log('The title of this blog post is "%s".', fullTitle);
 
     await browser.close();
+
 })();
