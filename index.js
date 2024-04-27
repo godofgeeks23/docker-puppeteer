@@ -25,7 +25,7 @@ import puppeteer from 'puppeteer';
 
     const fullTitle = await textSelector?.evaluate(el => el.textContent);
 
-    console.log('The title of this blog post is "%s".', fullTitle);
+    console.log('Blog post title - "%s".', fullTitle);
 
     await browser.close();
 
