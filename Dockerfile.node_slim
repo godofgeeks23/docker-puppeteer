@@ -1,3 +1,4 @@
+# dockerfile for node as base image
 FROM node:slim
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
 RUN apt-get update && apt-get install gnupg wget -y && \
