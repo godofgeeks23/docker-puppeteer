@@ -1,3 +1,4 @@
+# dockerfile fot ubuntu as base image
 FROM ubuntu:latest
 ENV DEBIAN_FRONTEND=noninteractive
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
