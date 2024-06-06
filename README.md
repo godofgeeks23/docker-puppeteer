@@ -7,3 +7,5 @@ This image is intended to be used as a base image for other docker images that r
 ## About Puppeteer
 
 Puppeteer is a Node library which provides a high-level API to control headless Chrome or Chromium over the DevTools Protocol. It can also be configured to use full (non-headless) Chrome or Chromium.
+
+## How to use this image
